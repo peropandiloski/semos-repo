@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Page-02</title>
+    <style>
+        .images {
+            margin-top: 15px;
+            float: left;
+            margin-bottom: 25px;
+        }
+
+        .radio-btn {
+            float: left;
+            margin-top: 28px;
+        }
+
+        .cleaner {
+            float: none;
+            clear: both;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Secure payment info</h1>
+    <hr>
+    <div>
+        <div class="radio-btn">
+            <label for="radio"></label>
+            <input type="radio" id="radio" name="radio">
+        </div>
+        <div class="images">
+            <img src="images/mater-card.png" alt="master-card" width="50" height="40">
+            <img src="images/visa.png" alt="visa" width="50" height="40">
+            <img src="images/amex.png" alt="amex" width="50" height="40">
+            <img src="images/discover.png" alt="discover" width="50" height="40">
+        </div>
+        <div class="radio-btn"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="radio"></label>
+            <input type="radio" id="radio" name="radio"> &nbsp;&nbsp;
+        </div>
+        <div class="images">
+            <img src="images/pay-pal.png" alt="paypal" width="50" height="40">
+        </div>
+        <div class="cleaner">
+        </div>
+
+        <div class="input-name">
+            <label for="name" style="color: grey;">Name(as it appears on your card)</label><br>
+            <input type="text" name="name" id="name" style="height: 35; width: 300;">
+        </div><br>
+        <div class="card-number" >
+            <label for="card-number" style="color: grey;"> Card number(no dashesh or spaces</label><br>
+            <input type="text" id="number" name="number" style="height: 35; width: 300;">
+        </div><br>
+        <div class="exp-date" >
+            <label for="exp-date" style="color: grey;">Expiration date</label><br>
+            <input type="date" id="exp-date" name="expdate"style="height: 35; width: 300;" >
+
+        </div><br>
+        <div class="security-code" >
+            <label for="security-code" style="color: grey;">Security code (3 on back, Amex: 4 on front)</label><br>
+            <input type="password" id="security-code" name="security-code" style="height: 35; width: 150;"><br><br>
+            <img src="images/cvv.png" alt="cvv" height="40" width="85">
+        </div>
+        
+
+        
+
+    </div>
+
+
+
+
+</body>
+
+</html>

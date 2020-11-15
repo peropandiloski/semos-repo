@@ -1,0 +1,153 @@
+<html>
+
+<head>
+    <title>Page-03</title>
+    <style>
+      
+        .personal-info {
+            padding: 20px;
+            background-color: #f2f2f2;
+            height: 150;
+            width: 800;
+            margin-bottom: 40px;
+        }
+
+        .info-second {
+            height: 60;
+            margin-bottom: 40px;
+        }
+
+        .left-side {
+            float: left;
+            margin-right: 30px;
+        }
+
+        .info-third {
+            height: 400;
+        }
+        .last{
+            height: 100;
+        }
+        .info-fourth{
+            height: 100;
+        }
+    </style>
+</head>
+<h1>Please fill in yout information</h1>
+
+<form action="">
+    <div class="personal-info">
+        <label style="font-weight: bold;" for="name">Your Full Name</label>
+        <input type="text" style="width: 800; padding: 10px; margin-top: 5px;"><br><br>
+
+        <label style="font-weight: bold;" for="dateofbirth">Date Of Birth</label>
+        <input type="date" style="width: 800; height: 40;">
+    </div>
+
+    <div class=" info-second personal-info">
+        <input type="radio" name="tax" id="tax">
+        <label for="tax">Tax ID</label> &nbsp;&nbsp;&nbsp;
+
+        <input type="radio" id="security">
+        <label for="security">Social Security Number</label>&nbsp;&nbsp;&nbsp;
+
+        <input type="text" placeholder="9 Digit Number" style="width: 515; height: 40; padding: 15px;">
+
+    </div>
+    <div class="info-third personal-info">
+        <div class="left-side">
+            <label for="citizens" style="font-weight: bold;">Citizenship</label><br>
+            <select id="citizens" style="width: 380; height: 40; margin-top: 5px; margin-bottom: 40px;">
+                <option value="US Citizens">US Citizens</option>
+                <option value="MK Citizens">MK Citizens</option>
+                <option value="GER Citizens">GER Citizens</option>
+                <option value="UK Citizens">UK Citizens</option>
+            </select><br>
+            <label for="Day Phone" style="font-weight: bold;">Day Phone</label><br>
+            <input type="text" id="DayPhone" style="width: 380; height: 40; margin-top: 5px; margin-bottom: 40px;"><br>
+
+            <label for="city" style="font-weight: bold; margin-top: 5px;">City</label><br>
+            <input type="text" id="city" style="width: 380; height: 40; margin-top: 10px;">
+        </div>
+
+        <div class="right-side">
+            <label for="country" style="font-weight: bold; margin-bottom: 10px;">Country</label><br>
+            <select name="country" id="country" style="width: 380; height: 40; margin-top: 5px; margin-bottom: 45px;">
+                <option value="United States">USA</option>
+                <option value="Republic Of Macedonia">Macedonia</option>
+            </select><br>
+            <label for="evening-phone" style="font-weight: bold;">Evening Phone</label><br>
+            <input type="text" id="evening-phone" style="width: 380; height: 40; margin-bottom: 45px;"><br>
+
+            <label for="state" style="font-weight: bold;">State</label>
+            <label for="zip" style="font-weight: bold; margin-left: 150px;">Zip Code</label><br>
+            <select name="state" id="state" style="width: 160; height: 40; margin-top: 5px;">
+                <option value="/"></option>
+
+                <input type="text" name="zip" id="zip" style="width: 160; height: 40; margin-left: 30px;">
+            </select>
+
+        </div>
+
+
+    </div>
+    <div class="info-fourth personal-info">
+        <div class="left-side">
+            <input type="radio" name="radio" id="subject">
+            <label for="subject">Subject backup witholing</label>
+        </div>
+
+        <div class="right-side">
+            <input type="radio" name="another" id="another" style="margin-left: 200px;">
+            <label for="another">I Want to reinvest my dividendes</label>
+        </div>
+
+    </div>
+    <div class="last personal-info">
+        <input type="radio" name="radio" id="optional">
+        <label for="optionaln">+Add optional address</label>
+
+
+    </div>
+
+
+
+
+</form>
+
+<!-- <form class="form-general" action="" style="height:120;width: 800;">
+    <label for="name"><b>Your Full Name</b></label><br>
+    <input type="text" name="name" id="name" style="width:800; height: 30;"><br><br>
+    <label for="date-birth"><b>Date of Birth</b></label><br>
+    <input type="date" name="day" id="date" style="width:800" height="40"><br>
+</form> -->
+
+<!-- <form class="form-general" action="" style=" height: 40;width: 800;">
+    <input type="radio" name="radio" id="radio">
+    <label for="radio">Tax ID</label>&nbsp;&nbsp;
+    <input type="radio" name="radio" id="social-security">
+    <label for="social-security">Social Security Number</label> &nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="9 Digit Number" style="width: 400;height: 45;">
+</form> -->
+<!-- <form class="form-general" action="">
+    <label for="citizen"><b>Citizenship</b></label><br>
+    <select name="citizen" id="citizen" style="width: 400; height: 30;">
+        <option value="US Citizen">US Citizen</option>
+        <option value="MK Citizen">MK Citizen</option>
+        <option value="GER Citizen">GER Citizen</option>
+        <option value="UK Citizen">UK Citizen</option>
+    </select>
+    <label for="country">Country</label>
+    <select name="country" id="country" style="width: 400; height: 30;">
+        <option value="USA">USA</option>
+        <option value="MK">Macedonia</option>
+        <option value="GER">Germany</option>
+        <option value="UK">United Kingdom</option>
+    </select>
+
+
+
+</form>
+</div> -->
+
+</html>

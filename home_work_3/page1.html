@@ -1,0 +1,156 @@
+<html>
+
+<head>
+    <title>Page 1</title>
+    <style>
+        .search-label {
+            text-align: right;
+            display: block;
+            float: right;
+        }
+
+        .caption {
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+<body>
+    <table align="center" border width="1200" style="border:1px black">
+        <caption align="top" class="caption">Lists of Expense Reports Saved</caption>
+        <thead>
+            <tr style="height: 35px;">
+                <th colspan="7" text align="left" bgcolor="#3588EB" style="color: aliceblue;">Users</th>
+            </tr>
+            <tr style="height: 35px;">
+                <th colspan="7" text align="left">
+                    <label for="entries">Show</label>
+                    <select name="entries" id="entries" se>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                    entries
+                    <div class="search-label">
+                        <label for="search">Search</label>
+                        <input type="text" name="search" id="search">
+                    </div>
+
+                </th>
+                <tr style="text-align: left; height: 35px;">
+                    <th>Exp.Rep#</th>
+                    <th>Company</th>
+                    <th>Purpose</th>
+                    <th>Amout</th>
+                    <th>Curr</th>
+                    <th>Status</th>
+                    <th>Submitted On</th>
+                </tr>
+                <tr>
+                    <td>140</td>
+                    <td>US01</td>
+                    <td>Chickago Training</td>
+                    <td>624</td>
+                    <td>USD</td>
+                    <td>Rejected</td>
+                    <td>
+                        <button type="submit" name="btn-submit" style="background-color: #4D8EC4; color: cornsilk; padding: 5px;" >Submit</button>
+                    </td>
+                    <tr>
+                        <td>143</td>
+                        <td>GP01</td>
+                        <td>Travel to London</td>
+                        <td>222.00</td>
+                        <td>GBP</td>
+                        <td>Rejected by finance</td>
+                        <td>
+                            <button type="submit" name="btn-submit" style="background-color: #4D8EC4; color: cornsilk; padding: 5px;" >Submit</button>
+                        </td>
+                        <tr>
+                            <td>152</td>
+                            <td>BP01</td>
+                            <td>Markeiting Schow in Madison</td>
+                            <td>20.00</td>
+                            <td>USD</td>
+                            <td>Saved</td>
+                            <td>
+                                <button type="submit" name="btn-submit" style="background-color: #4D8EC4; color: cornsilk; padding: 5px;" >Submit</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>155</td>
+                            <td>BP01</td>
+                            <td>Trip to Canada</td>
+                            <td>472.77</td>
+                            <td>CAD</td>
+                            <td>Saved</td>
+                            <td>
+                                <button type="submit" name="btn-submit" style="background-color: #4D8EC4; color: cornsilk; padding: 5px;" >Submit</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>161</td>
+                            <td>US01</td>
+                            <td>Trip to India</td>
+                            <td>
+                                <button type="submit" name="btn-details" style="background-color: #4D8EC4; color: cornsilk; padding: 5px;" >Details</button>
+                            </td>
+                            <td>USD</td>
+                            <td>Saved</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>163</td>
+                            <td>CA01</td>
+                            <td>Onsite analysis</td>
+                            <td>1500.00</td>
+                            <td>CAD</td>
+                            <td>Saved</td>
+                            <td><button type="submit" name="btn-submit" style="background-color: #4D8EC4; color: cornsilk; padding: 5px;" >Submit</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>164</td>
+                            <td>GB01</td>
+                            <td>MS SQL Training bootcamp</td>
+                            <td>
+                                <button type="submit" name="btn-details" style="background-color: #4D8EC4; color: cornsilk; padding: 5px;" >Details</button>
+                            </td>
+                            <td>GBP</td>
+                            <td>Saved</td>
+                            <td></td>
+                        </tr>
+                        
+                    </tr>
+                </tr>
+                <tfoot>
+                   <tr style="height: 35px;">
+                   
+                       <td colspan="7">Schowing 1 to 7 of 7 entries
+                       <button style="float: right; padding: 5px;">Next</button>
+                       <button style="float: right; padding: 5px;margin-right: 10px"> Prevous</button>
+                      
+                       
+                    </td>
+                   </tr>
+                </tfoot>
+
+
+
+
+
+            </tr>
+        </thead>
+
+    </table>
+
+</body>
+
+</html>

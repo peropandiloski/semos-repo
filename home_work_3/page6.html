@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>Page-06</title>
+</head>
+
+<body>
+    <h1>Software Order Form</h1>
+
+    <fieldset>
+        <legend style="font-weight: bold;">License Details</legend>
+        <ul>
+
+            <li style="margin-right: 15px; font-weight: bold;">Email Adress
+                <input type="email" name="email" id="email">
+            </li>
+            <li style="margin-right: 15px;font-weight: bold;">Website
+                <input type="text" name="website" id="website" placeholder="https://www.example.com">
+            </li>
+            <li style="margin-right: 15px;font-weight: bold;">Number of licences
+                <input type="text" name="licences" id="licences" placeholder="How many to buy (1-10)">
+            </li>
+        </ul>
+    </fieldset>
+    <fieldset>
+        <legend style="font-weight: bold;">Billing details</legend>
+        <ul>
+            <li style="margin-right: 15px;font-weight: bold;">Name
+                <input type="text" name="name" id="fullname" placeholder="Firs Last">
+            </li>
+            <li style="margin-right: 15px;font-weight: bold;">Adress
+                <input type="text" name="adress" id="adress" placeholder="Houste number,street, city, state"
+                    style="height:60; width: 200;">
+            </li>
+            <li style="margin-right: 15px;font-weight: bold;">Postal code
+                <input type="text" name="post-code" id="post-code" placeholder="Post code or zip code">
+            </li>
+            <li style="margin-right: 15px;font-weight: bold;">Country
+                <select name="country" id="country">
+                    <option value="Australia">Australia</option>
+                    <option value="Macedonia">Macedonia</option>
+                    <option value="Germany">Germany</option>
+                </select>
+            </li>
+            </li>
+            <li style="margin-right: 15px;font-weight: bold;">Phone optional
+                <input type="text" name="phone" id="phone" placeholder="Include ciountry prefix">
+            </li>
+
+        </ul>
+
+    </fieldset>
+    <fieldset>
+        <legend style="font-weight: bold;">Payment details</legend>
+        <ul>
+            <li style="font-weight: bold;">Card Number
+                <input type="text" name="card-number" id="card-number" placeholder="as show on the front">
+            </li>
+            <li style="font-weight: bold;">CVV Code
+                <input type="text" name="cvv" id="cvv" placeholder="3 - digit number on back">
+            </li>
+            <li style="font-weight: bold;">Expirty date
+                <input type="date" name="date" id="date">
+            </li>
+            
+        </ul>
+    </fieldset>
+
+</body>
+
+</html>

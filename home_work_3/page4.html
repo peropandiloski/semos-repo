@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>Page-04</title>
+    <style>
+        .login-details {
+            padding: 15px;
+            margin-left: 15px;
+
+        }
+
+        .username {
+            margin-left: 15px;
+        }
+
+        .password {
+            margin-left: 25px;
+        }
+
+        .retype-password {
+            margin-right: -25px;
+        }
+
+        .againpass {
+            margin-left: 28px;
+        }
+        .email{
+            margin-left: 36px;
+        }
+    </style>
+</head>
+
+<h3>Please complete the form below.</h3>
+<fieldset style="width: 600;">
+    <legend style="color: #03cafc; font-size: 25px;"><b>Login Detalis</b></legend>
+    <div class="login-details">
+        <label for="user">User Name</label>
+        <input class="username" type="text" id="user" name="username"><br><br>
+
+        <label for="password">Password</label>
+        <input class="password" type="password" id="password" name="password"><br><br>
+
+        <label class="retype-password" for="retype-password">Re-Password</label>
+        <input class="againpass" type="password" id="password" name="retype-password"><br><br>
+    </div>
+</fieldset>
+
+<fieldset style="width: 600;">
+    <legend style="color: #03cafc; font-size: 25px;"><b>User Details</b></legend>
+    <div class="login-details">
+        <label for="first-name">First Name</label>
+        <input type="text" id="text" name="firstname"><br><br>
+
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" id="last-name"><br><br>
+        <div class="gender-part" style="margin-left: 20px;">
+            <label for="gender">Gender</label>
+            <input type="radio" name="male" id="gender">
+            <label for="">Male</label>
+            <input type="radio" name="female" id="gender">
+            <label for="">Female</label>
+        </div><br><br>
+        <label for="dateofbirth">Date of Birth</label>
+        <input style="width: 160;" type="date" name="date" id="dateofbirth"><br><br>
+
+        <label for="email">Email</label>
+        <input class="email" type="e-mail" name="email" id="email">
+
+
+
+    </div>
+</fieldset>
+<button type="submit" style="background-color: #03b5fc; color: honeydew; margin-top: 15px; margin-left: 5px;" >Register</button>
+
+<html>
