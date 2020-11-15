@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(4, 100px);
+}
+
+.item {
+  width: 300px;
+  height: 400px;
+  background-color: gray;
+  border: 2px dashed black;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}

@@ -1,0 +1,28 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.flex-item {
+    margin: 5px;
+    background-color: yellow;
+    height: 400;
+    width: 200;
+}
+
+h {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    font-size: 4rem;
+    color: #111;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+
+}

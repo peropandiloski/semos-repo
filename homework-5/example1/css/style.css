@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.box1 {
+    border: 2px solid blue;
+    height: 200px;
+    width: 400px;
+    padding-top: 2%;
+    order: 2;
+}
+
+.box2 {
+    border: 2px solid blue;
+    height: 200px;
+    width: 400px;
+    padding-top: 2%;
+    order: 3;
+
+}
+
+.box3 {
+    border: 2px solid blue;
+    height: 200px;
+    width: 400px;
+    padding-top: 2%;
+    order: 1;
+}
