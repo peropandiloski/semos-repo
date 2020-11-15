@@ -1,0 +1,62 @@
+.calendar {
+    border: 10px solid #f0ad26;
+    width: 600;
+
+}
+
+.header-text {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 3;
+
+}
+
+#circle-brown {
+    background-color: #d4d7d9;
+}
+
+#brown-num {
+    color: #d4d7d9;
+}
+
+.two {
+    margin-left: 14;
+    border-radius: 50%;
+    background-color: #faa0d3;
+    width: 47px;
+    line-height: 3;
+    text-align: center;
+    color: white;
+}
+
+.blue {
+    margin-left: 14;
+    border-radius: 50%;
+    background-color: #71b5d9;
+    width: 47px;
+    line-height: 3;
+    text-align: center;
+    color: white;
+
+}
+
+.other-numbers {
+    margin-left: 14;
+    border-radius: 50%;
+    background-color: white;
+    width: 47px;
+    line-height: 3;
+    text-align: center;
+    color: black;
+}
+
+.left-arrow {
+    float: left;
+    padding-left: 10px;
+
+}
+
+.right-arrow {
+    float: right;
+    padding-right: 10px;
+}

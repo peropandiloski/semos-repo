@@ -1,0 +1,54 @@
+body {
+    background-color: #71c9d1;
+}
+
+.table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #20818a;
+    border-radius: 13px;
+    margin-left: 80px;
+}
+
+.header {
+    color: white;
+    line-height: 50px;
+    border-radius: 13px;
+    font-size: 30px;
+}
+
+td {
+    max-width: 450px;
+}
+
+td,
+th {
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+.table-body {
+    background-color: #cceaed;
+    color: #2aa2ad;
+    line-height: auto;
+    padding: 20px;
+    font-size: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+.text-bolded {
+    font-weight: bold;
+    color: #1b727a;
+
+}
+
+.picture {
+    border-radius: 50%;
+    width: 80;
+    height: 80;
+}
