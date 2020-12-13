@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+
+<h2>Welcome to registration Form</h2>
+    <!-- registration form -->
+    <div class="login-page">
+        <div class="form" >
+            <form id="register-form" method="post"  onsubmit="event.preventDefault()">
+                <input id="uName" name="username" type="text" placeholder="Name" value="" />
+                <input id="uPw" name="password" type="password" placeholder="Password" value="" />
+                <input id="rgstr_btn" type="submit" value="Register" onclick="store()" />
+            </form>
+            <input id="rgstr_btn" type="button" value="Log In" onclick="login()" />
+        </div>
+    </div>
+</body>
+</html>
