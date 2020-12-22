@@ -1,0 +1,32 @@
+body {
+    font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
+    color: #fff;
+    padding: 50px;
+    background-color: #374954;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 100px;
+    padding-top: 15px;
+  }
+
+  .firstHeading{
+      font-size: 4rem;
+      font-weight:bold;
+      color:gold;
+      padding-bottom: 25px;
+  }
+
+  .secondHeading {
+      font-size: 2rem;
+      font-weight:bold;
+      color:gold;
+      padding-bottom: 25px;
+      
+  }
+
+  .footer{
+      font-family: 'Lato';
+      font-size: 1rem;
+  }
