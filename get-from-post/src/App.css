@@ -1,0 +1,18 @@
+.list{
+  padding: 15px;
+  background: #94e2d2;
+  border: 1px solid;
+  padding: 10px;
+  margin:10px;
+  box-shadow: 2px 3px #888888;
+}
+
+
+.heading{
+    padding: 60px;
+    text-align: center;
+    background: #94e2d2;
+    color: black;
+    font-size: 30px;
+  }
+  
