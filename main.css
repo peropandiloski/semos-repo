@@ -1,0 +1,10 @@
+#add-account-view{
+    display:none;
+}
+#edit-account-view {
+    display:none;
+}
+
+.nav-link:hover{
+    background-color: rgb(177, 177, 177);
+}
